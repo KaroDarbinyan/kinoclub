@@ -10,6 +10,6 @@ public class UserController {
 
     @GetMapping("/rest/user")
     public User getUser(){
-        return new User(1, "Poxos");
+        return new User();
     }
 }
